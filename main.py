@@ -11,8 +11,7 @@ def generate_indexes(nPixels, step):
     return result
 
 
-#filename = sys.argv[1]
-filename = "video.mp4"
+filename = sys.argv[1]
 file = cv.VideoCapture(filename)
 if not file.isOpened():
     print("could not open file")
